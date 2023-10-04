@@ -60,7 +60,7 @@ The `resolver` directive specifies the DNS server to use for resolving domain na
 #### SSL Configuration
 
 - `ssl_certificate /opt/acme/certs/example.com/fullchain.cer;`: Specifies the SSL certificate file path.
-- `ssl_certificate_key /opt/acme/certs/example.com/example.com.key;`: Specifies the SSL certificate key file path.
+- `ssl_certificate_key /opt/acme/certs/example.com/private.key;`: Specifies the SSL certificate key file path.
 
 ## Important Notes
 
